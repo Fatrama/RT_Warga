@@ -9,7 +9,7 @@ function cleanInput($data) {
     return $data;
 }
 
-// Function to fetch all records
+// Function to fetch all records (PDO)
 function fetchAll($query, $params = []) {
     global $pdo;
     try {
@@ -21,7 +21,7 @@ function fetchAll($query, $params = []) {
     }
 }
 
-// Function to fetch single record
+// Function to fetch single record (PDO)
 function fetchOne($query, $params = []) {
     global $pdo;
     try {
@@ -33,7 +33,7 @@ function fetchOne($query, $params = []) {
     }
 }
 
-// Function to execute query (INSERT, UPDATE, DELETE)
+// Function to execute query (INSERT, UPDATE, DELETE) (PDO)
 function executeQuery($query, $params = []) {
     global $pdo;
     try {
@@ -46,7 +46,7 @@ function executeQuery($query, $params = []) {
 
 // Function to format date
 function formatDate($date) {
-    return date('d-m-Y', strtotime($date));
+    return date('d/m/Y', strtotime($date));
 }
 
 // Function to format currency
@@ -54,37 +54,13 @@ function formatCurrency($amount) {
     return 'Rp ' . number_format($amount, 0, ',', '.');
 }
 
-function sanitize($data) {
-    global $conn;
-    return mysqli_real_escape_string($conn, htmlspecialchars($data));
+// Function to check if user is logged in
+function isLoggedIn() {
+    return isset($_SESSION['user_id']);
 }
 
-function execute($query) {
-    global $conn;
-    return mysqli_query($conn, $query);
-}
-
-function fetchAll($query) {
-    global $conn;
-    $result = mysqli_query($conn, $query);
-    $data = [];
-    while ($row = mysqli_fetch_assoc($result)) {
-        $data[] = $row;
-    }
-    return $data;
-}
-
-function fetchOne($query) {
-    global $conn;
-    $result = mysqli_query($conn, $query);
-    return mysqli_fetch_assoc($result);
-}
-
-function formatCurrency($amount) {
-    return 'Rp ' . number_format($amount, 2, ',', '.');
-}
-
-function formatDate($date) {
-    return date('d/m/Y', strtotime($date));
+// Function to check if user is admin
+function isAdmin() {
+    return isset($_SESSION['user_role']) && $_SESSION['user_role'] === 'admin';
 }
 ?>

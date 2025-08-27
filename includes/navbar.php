@@ -1,3 +1,10 @@
+<?php
+// Pastikan session sudah dimulai
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+?>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
         <a class="navbar-brand" href="/index.php">RT 01</a>
@@ -26,8 +33,8 @@
                 </li>
             </ul>
             <ul class="navbar-nav">
-                <?php if (isLoggedIn()): ?>
-                    <?php if (isAdmin()): ?>
+                <?php if (isset($_SESSION['user_id'])): ?>
+                    <?php if (isset($_SESSION['user_role']) && $_SESSION['user_role'] == 'admin'): ?>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown">
                                 Admin
