@@ -6,7 +6,7 @@ require_once 'auth.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RT 01 - Website Resmi</title>
+    <title>RT 09 - Website Resmi</title>
     <meta name="description" content="Website resmi RT 01 Kelurahan Contoh - Portal informasi dan layanan warga">
     <meta name="keywords" content="RT 01, rukun tetangga, kelurahan contoh, layanan warga">
     <meta name="author" content="RT 01">
