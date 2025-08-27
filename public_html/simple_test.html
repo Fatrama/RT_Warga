@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Test</title>
+</head>
+<body>
+    <h1>Simple Form Test</h1>
+    
+    <!-- Test 1: Form dengan action absolut -->
+    <h2>Test 1: Absolute Path</h2>
+    <form action="https://warga-ku.com/process/simple_debug.php" method="post">
+        <input type="text" name="test" value="absolute">
+        <button type="submit">Submit Absolute</button>
+    </form>
+    
+    <!-- Test 2: Form dengan action relatif -->
+    <h2>Test 2: Relative Path</h2>
+    <form action="process/simple_debug.php" method="post">
+        <input type="text" name="test" value="relative">
+        <button type="submit">Submit Relative</button>
+    </form>
+    
+    <!-- Test 3: Form dengan action root-relative -->
+    <h2>Test 3: Root-Relative Path</h2>
+    <form action="/process/simple_debug.php" method="post">
+        <input type="text" name="test" value="root-relative">
+        <button type="submit">Submit Root-Relative</button>
+    </form>
+    
+    <!-- Test 4: Form dengan method GET -->
+    <h2>Test 4: GET Method</h2>
+    <form action="/process/simple_debug.php" method="get">
+        <input type="text" name="test" value="get-method">
+        <button type="submit">Submit GET</button>
+    </form>
+    
+    <!-- Test 5: Form tanpa JavaScript -->
+    <h2>Test 5: No JavaScript</h2>
+    <form action="/process/simple_debug.php" method="post" onsubmit="return true;">
+        <input type="text" name="test" value="no-js">
+        <button type="submit">Submit No JS</button>
+    </form>
+</body>
+</html>

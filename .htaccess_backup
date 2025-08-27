@@ -1,0 +1,16 @@
+# Security - Prevent directory browsing
+Options All -Indexes
+
+# Security - Protect sensitive files
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "^(config|database)\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Error handling
+ErrorDocument 404 /index.php

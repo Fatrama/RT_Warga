@@ -1,0 +1,48 @@
+[26-Aug-2025 01:19:21 Asia/Jakarta] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:19:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wargakuc/public_html/includes/functions.php:2
+Stack trace:
+#0 /home/wargakuc/public_html/process/login.php(2): require_once()
+#1 {main}
+  thrown in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:23:05 Asia/Jakarta] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:23:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wargakuc/public_html/includes/functions.php:2
+Stack trace:
+#0 /home/wargakuc/public_html/process/login.php(2): require_once()
+#1 {main}
+  thrown in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:23:30 Asia/Jakarta] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:23:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wargakuc/public_html/includes/functions.php:2
+Stack trace:
+#0 /home/wargakuc/public_html/process/login.php(2): require_once()
+#1 {main}
+  thrown in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:26:50 Asia/Jakarta] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:26:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wargakuc/public_html/includes/functions.php:2
+Stack trace:
+#0 /home/wargakuc/public_html/process/login.php(2): require_once()
+#1 {main}
+  thrown in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:27:05 Asia/Jakarta] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:27:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wargakuc/public_html/includes/functions.php:2
+Stack trace:
+#0 /home/wargakuc/public_html/process/login.php(2): require_once()
+#1 {main}
+  thrown in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:33:57 Asia/Jakarta] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:33:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wargakuc/public_html/includes/functions.php:2
+Stack trace:
+#0 /home/wargakuc/public_html/process/login.php(6): require_once()
+#1 {main}
+  thrown in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:34:32 Asia/Jakarta] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:34:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wargakuc/public_html/includes/functions.php:2
+Stack trace:
+#0 /home/wargakuc/public_html/process/login.php(6): require_once()
+#1 {main}
+  thrown in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:58:29 Asia/Jakarta] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:58:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wargakuc/public_html/includes/functions.php:2
+Stack trace:
+#0 /home/wargakuc/public_html/process/debug_login.php(18): require_once()
+#1 {main}
+  thrown in /home/wargakuc/public_html/includes/functions.php on line 2

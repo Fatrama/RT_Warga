@@ -1,0 +1,11 @@
+[26-Aug-2025 01:23:15 Asia/Jakarta] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/wargakuc/public_html/includes/functions.php on line 2
+[26-Aug-2025 01:23:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wargakuc/public_html/includes/functions.php:2
+Stack trace:
+#0 /home/wargakuc/public_html/pages/residents.php(4): require_once()
+#1 {main}
+  thrown in /home/wargakuc/public_html/includes/functions.php on line 2
+[27-Aug-2025 11:12:09 Asia/Jakarta] PHP Fatal error:  Cannot redeclare fetchAll() (previously declared in /home/wargakuc/public_html/includes/functions.php:13) in /home/wargakuc/public_html/includes/functions.php on line 67
+[27-Aug-2025 11:12:15 Asia/Jakarta] PHP Fatal error:  Cannot redeclare fetchAll() (previously declared in /home/wargakuc/public_html/includes/functions.php:13) in /home/wargakuc/public_html/includes/functions.php on line 67
+[27-Aug-2025 11:12:16 Asia/Jakarta] PHP Fatal error:  Cannot redeclare fetchAll() (previously declared in /home/wargakuc/public_html/includes/functions.php:13) in /home/wargakuc/public_html/includes/functions.php on line 67
+[27-Aug-2025 11:12:16 Asia/Jakarta] PHP Fatal error:  Cannot redeclare fetchAll() (previously declared in /home/wargakuc/public_html/includes/functions.php:13) in /home/wargakuc/public_html/includes/functions.php on line 67
+[27-Aug-2025 11:12:19 Asia/Jakarta] PHP Fatal error:  Cannot redeclare fetchAll() (previously declared in /home/wargakuc/public_html/includes/functions.php:13) in /home/wargakuc/public_html/includes/functions.php on line 67

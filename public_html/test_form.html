@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 15px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form Test - Debug Login</h1>
+    
+    <form action="/process/debug_login.php" method="post">
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        
+        <div class="form-group">
+            <button type="submit">Submit Form</button>
+        </div>
+    </form>
+    
+    <hr>
+    
+    <h2>Testing Information</h2>
+    <p>This form will submit to: <strong>/process/debug_login.php</strong></p>
+    <p>Method: <strong>POST</strong></p>
+    <p>Expected parameters: username, password</p>
+    
+    <h3>Test Steps:</h3>
+    <ol>
+        <li>Enter username: <code>admin</code></li>
+        <li>Enter password: <code>password</code></li>
+        <li>Click "Submit Form"</li>
+        <li>Check if the debug page shows "Form submitted via POST"</li>
+    </ol>
+</body>
+</html>
